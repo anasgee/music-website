@@ -1,0 +1,826 @@
+* {
+  box-sizing: border-box;
+}
+
+#navbarSupportedContent ul li a:hover {
+  color: #e8631c;
+  transition:0.4s;
+}
+#navbarSupportedContent a {
+  color: white ;
+}
+#navbarSupportedContent .current a {
+  color: #e8631c;
+  font-weight: bolder;
+}
+
+#hero {
+  background: url('/img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
+  height: 33rem;
+}
+#hero #hero-left-col {
+  margin: auto;
+  padding-top: 250px;
+  color: white;
+}
+/* Dance Tour Section */
+#dance-tour-text {
+  width: 60%;
+  /* letter-spacing: 2px; */
+  margin: auto;
+  color: white;
+  padding: 25px 0;
+
+  font-weight: bolder;
+}
+#dance-tour-text p {
+  font-family: "nunito", sans-serif;
+  font-weight: lighter;
+}
+#dance-tour-text h2 {
+  font-family: "oswald", sans-serif;
+  font-weight: bolder;
+}
+#dance-tour {
+  background-color: #e8631c;
+  background-image: url("/img/shape-2.png");
+  background-position: left;
+  background-repeat: no-repeat;
+
+  background-size: auto;
+  height: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#dance-tour-img {
+  /* margin-left: -3%; */
+  padding-bottom: px;
+}
+#dance-tour-img img {
+  width: 100%;
+}
+.dance-card {
+  color: white;
+  background-color: #303030;
+  text-align: center;
+}
+.dance-card h1 {
+  font-size: 2rem;
+  padding-top: 10px;
+  font-family: "oswald";
+}
+.dance-card p {
+
+  font-size: 11px;
+}
+
+/* Pricing Section */
+
+#pricing-text {
+  width: 50%;
+
+  margin: auto;
+  color: white;
+  padding: 25px 0;
+
+}
+#dance-tour-text p {
+  font-family: "nunito";
+  font-weight: lighter;
+}
+#pricing {
+  background-color: #303030;
+  background-image: url("/img/shape-2.png");
+  background-blend-mode: exclusion;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+
+  background-size: auto;
+  height: auto;
+  text-align: center;
+}
+
+#pricing-img img {
+  width: 40%;
+  padding-top: 20px;
+}
+.pricing-card {
+  color: white;
+  background-color: #e8631c;
+  text-align: center;
+}
+.pricing-card h1 {
+  font-size: 2rem;
+
+  padding-top: 10px;
+  font-family: "oswald", sans-serif;
+  font-weight: bolder;
+}
+.pricing-card p {
+  font-size: 11px;
+}
+.pricing {
+  background-color: #e8631c;
+  margin: 15px;
+}
+/* Price End */
+
+/* Statistics Start */
+
+#statistics-text {
+  width: 50%;
+  margin: auto;
+  color: white;
+  padding: 25px 0;
+  font-family: "oswald", sans-serif;
+  font-weight: bolder;
+}
+#statistics-text p {
+  font-family: "nunito", sans-serif;
+  font-weight: lighter;
+}
+#statistics {
+  background-color: #303030;
+  padding-bottom: 30px;
+  height: auto;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.statistics-card {
+  color: white;
+
+  text-align: center;
+}
+.statistics-card h1 {
+  font-size: 2rem;
+
+  padding-top: 10px;
+  font-family: "oswald", sans-serif;
+}
+.statistics-card p {
+  font-size: 11px;
+}
+.statistics {
+  margin: 15px;
+}
+
+/* Statistics End */
+
+/* Amazing card */
+#amazing-dance {
+  background-color: #e8631c;
+  height: auto;
+}
+#card-1 {
+  margin-top: 40px;
+  background-color: #e8631c;
+
+  color: white;
+  border: none;
+}
+.d-1-img {
+  width: 100%;
+}
+.d-2-img {
+  width: 100%;
+}
+#herbert {
+  text-align: center;
+  background-image: url("/img/dance-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 300px;
+}
+#herbert .row {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 0, 0, 0.279),
+    rgba(0, 0, 0, 0.315)
+  );
+
+  margin-top: -20px;
+  height: 300px;
+}
+#herbert p {
+  padding-top: 100px;
+  width: 50%;
+}
+#herbert h3 {
+  margin-top: -30px;
+  font-family: "oswald", sans-serif;
+}
+/* Subscribe-Section */
+
+#subscribe-cta {
+  background-color: #e8631c;
+  background-image: url("/img/shape-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 100%;
+  margin-bottom: -50px;
+}
+#subscribe-cta h1 {
+  font-family: "oswald", sans-serif;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+#subscribe-cta p {
+  font-family: "nunito", sans-serif;
+  padding-top: 10px;
+}
+input {
+  padding: 5px 0px;
+  width: 60%;
+}
+button {
+  padding: 5px;
+
+  color: white;
+  text-align: center;
+  border-color: #303030;
+  background-color: #303030;
+  position: relative;
+  right: 5px;
+}
+
+/* Footer */
+#footer {
+  color: white;
+  background-color: #303030 !important;
+}
+footer a {
+  color: white;
+  font-size: 14px;
+}
+footer a:hover {
+  color: #e8631c;
+  font-weight: bold;
+}
+footer li {
+  color: white;
+}
+footer img {
+  width: 100px;
+}
+#footer-logo p {
+  font-size: 13px;
+  color: #e8631c;
+}
+footer h5 {
+  color: #e8631c;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 992px) and (max-width:1150px){
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    margin-left: 207px; 
+  }
+  }
+  @media screen and (min-width: 1150px) and (max-width:1600px) {
+    .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      margin-left: 350px; 
+    }
+    }
+  @media screen and (min-width: 1600px) {
+    .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      margin-left: 350px; 
+    }
+    }
+
+
+@media screen and (max-width: 1200px) and (min-width: 1022px) {
+  #hero #hero-left-col {
+    padding-top: 160px;
+  }
+  #hero {
+
+    margin-top: -5px;
+    margin-bottom: -70px;
+  }
+
+  #dance-tour-text h2 {
+    padding-top: 40px;
+  }
+  #dance-tour-text p {
+    margin-top: 20px;
+  }
+  #pricing-text h2 {
+    padding-top: 40px;
+  }
+  #pricing-text p {
+    padding-top: 20px;
+  }
+ 
+  .card h5 {
+    font-size: 15;
+    margin-top: -20px;
+  }
+  .card p {
+    font-size: 10px;
+  }
+  #statistics-text h2 {
+    margin-top: -50px;
+  }
+  #statistics-text p {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 1022px) and (min-width: 768px) {
+  #hero #hero-left-col {
+    padding-top: 150px;
+    font-size: 13px;
+  }
+  #hero {
+
+    margin-top: -5px;
+    margin-bottom: -70px;
+  }
+  #dance-tour {
+    margin-top: -100px;
+  }
+ 
+  #dance-tour-text p {
+    margin-top: 20px;
+  }
+  #pricing-text h2 {
+    font-weight: bolder;
+  }
+  #pricing-text p {
+    padding-top: 15px;
+  }
+
+  .card h5 {
+    font-size: 15px;
+    margin-top: -50px;
+  }
+  #btn {
+    width: 80px;
+    font-size: 8px;
+    margin-top: -15px;
+  }
+  .card p {
+    font-size: 10px;
+  }
+  #statistics-text h2 {
+    margin-top: -92px;
+    font-weight: bolder;
+  }
+  #statistics-text p {
+    padding-top: 20px;
+  }
+  #statistics-row {
+    margin-top: 0px;
+  }
+  #subscribe-cta h1 {
+    margin-top: 21px;
+  }
+}
+@media screen and (min-width: 618px) and (max-width: 768px) {
+  #hero #hero-left-col {
+    padding-top: 60px;
+    padding-left: 40px;
+    font-size: 12px;
+  }
+  #hero {
+
+    margin-top: -5px;
+    background-size: contain;
+    margin-bottom: -70px;
+  }
+  #dance-tour {
+    margin-top: -281px;
+  }
+
+  #dance-tour .img {
+    width: 160px !important;
+  }
+  #dance-tour-img {
+    justify-content: space-evenly !important;
+  }
+  .dance-card {
+    color: white;
+    background-color: #303030;
+    text-align: center;
+    width: 160px;
+    margin: -30px auto 0px;
+
+  }
+  .dance-card h1 {
+    font-size: 26px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+
+  .dance-card p {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+
+  #dance-tour-text p {
+    margin-top: 20px;
+  }
+
+
+  .pricing {
+    width: 160px !important;
+    font-weight: lighter;
+  }
+  #pricing-text h2 {
+    font-weight: bolder;
+  }
+  #pricing-text p {
+    padding-top: 15px;
+  }
+
+  #amazing-dance img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -20px;
+  }
+  .card h5 {
+    font-size: 15px;
+    margin-top: -50px;
+  }
+  #btn {
+    width: 80px;
+    font-size: 8px;
+    margin-top: -15px;
+  }
+  .card p {
+    font-size: 10px;
+  }
+  #statistics-text h2 {
+    margin-top: -92px;
+    font-weight: bolder;
+  }
+  #statistics-text p {
+    padding-top: 20px;
+  }
+  #statistics-row {
+    margin-top: 0px;
+  }
+  #subscribe-cta h1 {
+    margin-top: 21px;
+  }
+}
+@media screen and (min-width: 428px) and (max-width: 618px) {
+   
+  #hero{
+    margin-bottom:-395px;
+
+    background-size:contain; }
+   
+#hero #hero-left-col{
+      padding-top: 10px;
+    font-size: 7px;
+    width: 50%;
+   position: relative;
+   left: -100px;    
+}
+#hero #hero-left-col h1
+{
+    padding-top: 10px;
+    font-size: 15px;
+}
+#hero #hero-left-col p
+{
+    margin-bottom: 5px;
+}
+#hero #hero-left-col button{
+    width: 75px;
+    font-size: 8px;
+    height: 20px;
+    position: relative;
+    left: 20px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: center;
+    padding-bottom: -10px;
+}
+
+#dance-tour{
+  font-size: 10px;
+
+
+}
+#dance-tour-img{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+#dance-tour-img .dance img{
+  width: 100px; 
+
+
+}
+#dance-tour-img .dance-card{
+  width: 100px;
+  padding: 5px ;
+  margin:-10px auto;
+}
+#dance-tour-img h1{
+  font-size: 15px;
+}
+#dance-tour-img p{
+  font-size:10px;
+}
+
+
+.pricing {
+  width: 100px !important;
+  font-weight: lighter;
+}
+#pricing-text h2 {
+  font-weight: bolder;
+}
+#pricing-text p {
+  padding-top: 15px;
+}
+.pricing-card h1{
+  font-size: 15px;
+}
+.pricing-card{
+  padding: 5px;
+}
+.pricing-card p{
+  font-size: 10px;
+}
+#pricing-img{
+  display: flex;
+  justify-content: space-evenly ;
+  
+}
+
+#amazing-dance img {
+  width: 100px;
+  height: 100px;
+
+}
+.card h5 {
+  font-size: 13px;
+  margin-top: -50px;
+}
+#amazing-dance{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 92px;
+  font-size: 10px;
+
+}
+.card-body{
+  padding-top: 10px;
+}
+#btn {
+  width: 80px;
+  font-size: 8px;
+  margin-top: -15px;
+}
+.card p {
+  font-size: 8px;
+  width: 100%;
+}
+#statistics-text h2 {
+  margin-top: -100px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#statistics-text p {
+  padding-top: 10px !important;
+  font-size: 10px;
+}
+#statistics-row {
+  margin-top: -10px;
+  display: flex !important;
+  justify-content: space-evenly;
+}
+
+#statistics-row h1{
+  font-size: 20px;
+  
+}
+#subscribe-cta h1 {
+  margin-top: 21px;
+  font-size: 20px;
+}
+#subscribe-cta p{
+  font-size: 10px;
+  width: 100%;
+}
+#subscribe input{
+  width: 100%;
+}
+#subscribe button{
+  width: 100%;
+  left: 0px;
+}
+footer h5{
+  font-size: 15px;
+}
+footer a{
+  font-size: 12px;
+}
+}
+@media screen and (max-width:428px)
+{
+   
+  #hero{
+    background-size:contain;
+    background-position-y: -20px;
+  }
+  #hero #hero-left-col{
+     padding-top: 35px;
+
+    font-size: 7px;
+    width: 50%;
+   position: relative;
+   left: -63px;
+  }
+  #hero #hero-left-col h1{
+    font-size: 15px;
+    color: #e8631c;
+  }
+  #hero #hero-left-col button {
+    width: 56px;
+    height: 17px;
+    font-size: 5px;
+    margin-top: -12px;
+    margin-left: 5px;
+  }
+  #dance-tour {
+    margin-top: -372px;
+    font-size: 10px;
+  } 
+  #dance-tour .dance{
+    margin-top: 22px;
+  }
+  #dance-tour-text {
+    width: 100%;
+
+    margin: auto;
+    color: white;
+   margin: 0px auto -42px;
+    font-weight: bolder;
+}
+#dance-tour-text h2{
+  font-size: 20px;
+}
+
+  #dance-tour-img{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #dance-tour-img .dance img{
+    width: 70%; 
+
+  
+  }
+  #dance-tour-img .dance-card{
+    width: 70%;
+    padding: 5px ;
+    margin:-10px auto;
+  }
+  #dance-tour-img h1{
+    font-size: 15px;
+  }
+  #dance-tour-img p{
+    font-size:10px;
+  }
+
+  /* pricing */
+  #pricing-text{
+    width:90%;
+  }
+  #amazing-dance {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    font-size: 10px;
+  }
+  #pricing-text h2 {
+    font-weight: bolder;
+    font-size: 20px;  
+  }
+  #pricing-text p {
+    font-size: 10px;
+    padding: 0px;
+    margin: 2px;
+    width: 100%;
+  }
+
+  .pricing {
+    width: 100px !important;
+    font-weight: lighter;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+  
+    .pricing-card h1{
+      font-size: 15px;
+    }
+    .pricing-card{
+      padding: 5px;
+    }
+    .pricing-card p{
+      font-size: 10px;
+    }
+    #pricing-img{
+      display: flex;
+      justify-content: space-evenly ;
+      
+    }
+    
+    #amazing-dance img {
+      width: 100px;
+      height: 100px;
+    
+    }
+    .card h5 {
+      font-size: 10px;
+      margin-top: -53px;
+    }
+    .card-body{
+      padding-top: 10px;
+    }
+    #btn{
+      width: 66px;
+      font-size: 6px;
+      margin-top: -18px;
+    }
+    .card p {
+      font-size: 7px;
+      width: 100%;
+    }
+    #statistics-text {
+      width: 90%;
+      padding: 15px 0;
+      }
+    #statistics-text h2 {
+      margin-top: -100px;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+    #statistics-text p {
+      padding-top: 10px !important;
+      font-size: 9px;
+    }
+    #statistics-row {
+      margin-top: -15px;
+      display: flex;
+    }
+    
+    #statistics-row h1{
+      font-size: 20px;
+      
+    }
+    #subscribe-cta h1 {
+      margin-top: 21px;
+      font-size: 20px;
+    }
+    #subscribe-cta p{
+      font-size: 10px;
+      width: 100%;
+    }
+    #subscribe-cta2{
+      width: 85%;
+    }
+    #subscribe input{
+      width: 100%;
+    }
+    #subscribe button{
+      width: 100%;
+      left: 0px;
+    }
+    footer h5{
+      font-size: 15px;
+    }
+   footer ul{
+    list-style-type: none;
+   }
+    footer a{
+      font-size: 12px;
+      text-decoration: none;
+    }
+    
+
+  }
+  
